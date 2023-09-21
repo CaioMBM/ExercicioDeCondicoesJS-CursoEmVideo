@@ -26,19 +26,19 @@ if (hora < 12){
     // Informar a hora e mostrar na página 
     pHora.innerText = `Agora são ${hora}:${minuto} da manhã.`
     
-    img.src = '../img/manha.jpg'
+    img.src = 'img/manha.jpg'
 } else if ( hora < 18 ){
     body.style.background = "#FFC648"
     
     // Informar a hora e mostrar na página 
     pHora.innerText = `Agora são ${hora}:${minuto} da tarde.`
     
-    img.src = '../img/tarde.webp'
+    img.src = 'img/tarde.webp'
 } else{
     body.style.background = '#181463'
     
     // Informar a hora e mostrar na página 
     pHora.innerText = `Agora são ${hora}:${minuto} da noite.`
     
-    img.src = '../img/noite.avif'
+    img.src = 'img/noite.avif'
 }
